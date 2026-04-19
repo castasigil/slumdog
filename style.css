@@ -48,8 +48,9 @@ h3 {
 }
 
 p {
-  font-family: MyCustomFont2;
-  font-size: 12px;
+  font-family: 'Arial', sans-serif;   ;
+  font-weight: bold;
+  font-size: 15px;
   text-align: center;
   position: relative;
   z-index: 900;
@@ -64,8 +65,9 @@ p:hover {
 }
 
 a {
-  font-family: MyCustomFont2;
-  font-size: 12px;
+  font-family: 'Arial', sans-serif;  
+  font-weight: bold;
+  font-size: 18px;
   text-align: left;
 }
 
