@@ -74,21 +74,15 @@
         </p>
   </div>
 
-  <div class="f" style="width: 150px;">
+  <div class="f" style="width: 150px; height: 150px;">
     <div id="lol">
-        <img class="img2" src="./albums/backseat.jpg">
+        <img class="img2" src="./albums/backseat.jpg"  onclick="document.getElementById('audio').play();" >
         <img class="img1" src="./images/cd.png" style="width: 120px; height: 120px;">
-        
-        <script> 
-        document.getElementById("lol").onclick = function() {
-    var audio = document.getElementById("audio");
-    if (audio.paused) audio.play();
-    else audio.pause();
-} </script>
-        <audio id="audio"><source src="./music/Backseat.flac" type="audio/flac"></audio>
+        <audio id="audio" src="./music/Backseat - Buckshot.flac"></audio>
     </div>
 
   </div>
+
 
 <div class="h"> 
   <div class="marquee" style="border: none;">
