@@ -78,6 +78,13 @@
     <div id="lol">
         <img class="img2" src="./albums/backseat.jpg">
         <img class="img1" src="./images/cd.png" style="width: 120px; height: 120px;">
+        
+        <script> 
+        document.getElementById("lol").onclick = function() {
+    var audio = document.getElementById("audio");
+    if (audio.paused) audio.play();
+    else audio.pause();
+} </script>
         <audio id="audio"><source src="./music/Backseat.flac" type="audio/flac"></audio>
     </div>
 
