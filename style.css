@@ -14,18 +14,19 @@ body {
 
 @font-face {
   font-family: MyCustomFont;
-  src: url('./graphicoreBMFB-master(1)/graphicoreBMFB-master/download/graphicoreBitmapFont/graphicoreBitmapFont0-Book.otf');
+  src: url('./fonts/graphicoreBitmapFont0-Book.otf');
 }
 
 @font-face {
   font-family: MyCustomFont2;
-  src: url('./graphicoreBMFB-master(1)/graphicoreBMFB-master/download/graphicoreBitmapFont/graphicoreBitmapFont0-medium.otf');
+  src: url('./fonts/graphicoreBitmapFont0-medium.otf');
 }
 
 @font-face {
   font-family: MyCustomFont3;
-  src: url('./graphicoreBMFB-master(1)/graphicoreBMFB-master/download/graphicoreBitmapFont/graphicoreBitmapFont1-Demi-Bold.otf');
+  src: url('./fonts/graphicoreBitmapFont1-Demi-Bold.otf');
 }
+
 
 /* text stuff */
 /* h1 is usually 35px */
