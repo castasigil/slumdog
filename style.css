@@ -67,7 +67,7 @@ p:hover {
 a {
   font-family: 'Arial', sans-serif;  
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -219,7 +219,7 @@ lol,
   position: absolute;
   max-width: 100%;
   left: 95px;
-  bottom: 25px;
+  bottom: 23px;
   z-index: 800;
   -webkit-animation: spin 2s linear infinite;
   -webkit-animation: spin 4s linear infinite;
