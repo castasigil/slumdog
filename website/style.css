@@ -1,0 +1,115 @@
+body { 
+    background-color: black;
+    line-height: 125%;
+  color: #c1438a;
+  font-family: Georgia;
+  font-size: 20px;
+ }
+
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  gap: 10px;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 600px;
+  align-items: flex-start;
+  background-image: url("images/background.jpg");
+  border: #8b2f62 solid 2px;
+}
+
+.item1 {
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    background-color: black;
+  border: solid 5px;
+  border-style: double;
+  border-color: #8b2f62;
+  align-self: center;
+}
+
+.item2 {
+    font-family: 'Barriecito';
+    font-size: 35px;
+    line-height: 1.1;
+    float: left;
+    margin-left: 17px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.text {
+    padding-left: 20px;
+    height: 465px;
+    width: 550px;
+    display: inline-block;
+    justify-content: center;
+    padding: 15px;
+    border: solid 5px;
+    border-style: double;
+    border-color: #8b2f62;
+    background-color: black;
+    align-self: center;
+    
+}
+
+
+.socials {
+      font-family:Georgia;
+      font-size:15px;
+      padding: 5px;
+      height: 250px;
+      width:100px;
+      overflow-x: hidden;
+      overflow-y: auto; }
+
+ .news {
+      font-family:Georgia;
+      font-size:15px;
+      padding: 5px;
+      height: 250px;
+      width:100px;
+      overflow-x: hidden;
+      overflow-y: auto; }
+      
+.news::-webkit-scrollbar {
+      display: none; }
+      
+.news {
+   -ms-overflow-style: none; 
+    scrollbar-width: none;   }
+
+
+	 .nav {
+      display: flex;
+      justify-content: center;
+      font-size: 29px;
+      padding: 15px;
+            }
+
+
+ a{
+  font-size: 28px;
+	color:lightseagreen;
+	text-decoration: underline;
+}
+ a:hover{
+  font-size: 28px;
+	color: mediumseagreen;
+	text-decoration: underline;
+}
+
+a:visited{
+   font-size: 28px;
+   color: seagreen ;
+   text-decoration: underline;
+ }
+
