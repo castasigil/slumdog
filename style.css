@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   height: 600px;
   align-items: flex-start;
-  background-image: url(images/background.jpg);
+  background-image: url("images/background.jpg");
   border: #8b2f62 solid 2px;
 }
 
