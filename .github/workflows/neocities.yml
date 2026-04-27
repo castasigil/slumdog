@@ -1,17 +1,15 @@
-name: Deploy to neocities
+name: Deploy to Neocities and Nekoweb
 
-# only run on changes to master
 on:
   push:
     branches:
-      - master
+      - main
 
-env:
-  FORCE_COLOR: 1
-  node_version: lts/*
+permissions:
+  contents: write
 
-concurrency: # prevent concurrent deploys doing strange things
-  group: deploy-to-neocities
+concurrency:
+  group: deploy-sites
   cancel-in-progress: true
 
 jobs:
@@ -19,18 +17,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v6
-    # Set up any tools and build steps here
-    # This example uses a Node.js toolchain to build a site
-    - run: npm i
-    - run: npm run build
-    # When the dist_dir is ready, deploy it to neocities
-    - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@master # dont use master in production
+    - uses: actions/checkout@v4
+
+    - name: Deploy to Neocities
+      uses: bcomnes/deploy-to-neocities@v3
       with:
         api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
-        dist_dir: public
-        protected_files: 'dropbox/*'
-        neocities_supporter: false # set this to true if you have a supporter account and want to bypass unsuported files filter.
-        preview_before_deploy: true
+        preview_before_deploy: false
+        dist_dir: 'docs'
+
+    - name: Deploy to Nekoweb
+      uses: indiefellas/deploy2nekoweb@main
+      with:
+        nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
+        nekoweb-domain: 'machinehell.nekoweb.org'
+        nekoweb-username: 'machinehell'
+        directory: 'docs'
