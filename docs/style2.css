@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    line-height: 125%;
+    color: #c1438a;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    padding: 15px;
+}
+
+
+.div1 {
+    padding: 2px;
+    background-color: black;
+    width: 1000px;
+    justify-content: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+a{
+    font-size: 28px;
+    color:lightseagreen;
+    text-decoration: underline;
+}
+a:hover{
+    font-size: 28px;
+    color: mediumseagreen;
+    text-decoration: underline;
+}
+
+a:visited{
+    font-size: 28px;
+    color: seagreen ;
+    text-decoration: underline;
+}
+
