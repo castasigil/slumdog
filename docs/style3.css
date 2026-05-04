@@ -1,0 +1,78 @@
+
+body {
+    background-image: url(./images/tvs.jpg);
+    line-height: 125%;
+    color: darkslategrey;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+
+    width: 45%;
+    max-width: 1200px;
+    height: 890px;
+    background-image: url("./images/tiles2.jpg");
+    border: #8b2f62 solid 2px;
+}
+
+.tg          { border-collapse:collapse;border-spacing:0;}
+.tg td       { border-color:black;overflow:hidden;padding:8px 6px;word-break:normal;}
+.tg th       { border-color:black;font-weight:normal;overflow:hidden;padding:8px 6px;word-break:normal;}
+.tg .tg-elho { border-color:#cb0000;border-style:double;color:#cb0000;font-family:Georgia, serif !important;font-size:16px; text-align:left;vertical-align:top}
+
+#wrap1 {
+border: 2px solid black;
+padding: 10px;
+display: inline-block;
+background-color: beige;
+}
+
+#wrap2 {
+border: 2px solid mediumvioletred;
+display: inline-block;
+}
+
+#wrap3 {
+border: 10px double rebeccapurple;
+padding: 10px;
+display: inline-block;
+background-color: beige;
+}
+
+#wrap4 {
+display: inline-block;
+}
+
+#maintext {
+text-align: left;
+font-size: 17px;
+width: 625px;
+padding-top: 3px;
+}
+
+#img {
+    padding-right: 10px
+}
+
+mark {
+    background-color: mediumseagreen;
+    color: teal;
+    font-family: barriecito;
+    font-size: 25px;
+}
+
+#back {
+background-color: black;
+padding: 5px;
+display: inline-block;
+color: blueviolet;
+font-size: 30px;
+font-family: barriecito;
+}
